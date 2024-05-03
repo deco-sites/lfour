@@ -58,7 +58,7 @@ function VideoItem({
         onClick={() => {
           // (document?.getElementById(modalId) as HTMLFormElement)?.showModal()
           //  document?.querySelector('[data-videomodal] iframe')?.src = modalId
-          const iframe = document?.querySelector('[data-videomodal] iframe');
+          const iframe = document?.querySelector('[data-videomodal] img');
 
           if (iframe.src) {
 
@@ -66,9 +66,6 @@ function VideoItem({
             (document?.querySelector('[data-videomodal]') as HTMLFormElement)?.showModal();
           }
 
-          if (modalId) {
-            document?.querySelector('[data-videomodal] iframe').classList.remove('hidden');
-          }
         }
         }
         class="block"
