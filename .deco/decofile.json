@@ -505,18 +505,31 @@
         }
       },
       {
-        "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Sob Medida</p>",
-        "cta": [],
-        "description": "A qualidade na fabricação são fundamentais para garantir a satisfação do cliente",
-        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8604/8da75f6f-3912-4bc6-90d7-eee17764eaaf"
+        "__resolveType": "site/sections/HeroBanner.tsx",
+        "slides": [
+          {
+            "content": {
+              "name": "Sob Medida",
+              "description": "A qualidade na fabricação são fundamentais para garantir a satisfação do cliente",
+              "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8604/1af34311-6f5e-4d07-b596-13bac1876637"
+            }
+          },
+          {
+            "content": {
+              "description": "A qualidade na fabricação são fundamentais para garantir a satisfação do cliente",
+              "name": "Sob Medida",
+              "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8604/ee429a5c-daa5-4776-8ac2-8bdedd6e15c5"
+            }
+          }
+        ],
+        "interval": 6
       },
       {
         "__resolveType": "site/sections/ImageWithParagraph.tsx",
-        "placement": "left",
         "title": "Sobre nos",
         "description": "A marcenaria personalizada iniciada em 2024 reflete um compromisso com a dedicação e a inovação no design de móveis. Cada peça é meticulosamente trabalhada para atender às especificações exatas dos clientes, combinando técnicas tradicionais com tendências contemporâneas. Este enfoque não apenas garante móveis que se encaixam perfeitamente nos espaços dos clientes, mas também promove uma experiência única e pessoal em cada projeto.",
-        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8604/2400a5f0-115d-4dac-8fbc-3f11fae650ab"
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8604/2400a5f0-115d-4dac-8fbc-3f11fae650ab",
+        "placement": "left"
       },
       {
         "__resolveType": "site/sections/ImageWithParagraph.tsx",
@@ -601,26 +614,6 @@
         "logo": {
           "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8604/12a84284-16f4-4fc3-9fe4-9647293cae2c"
         }
-      },
-      {
-        "__resolveType": "site/sections/HeroBanner.tsx",
-        "slides": [
-          {
-            "content": {
-              "name": "Sob Medida",
-              "description": "A qualidade na fabricação são fundamentais para garantir a satisfação do cliente",
-              "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8604/1af34311-6f5e-4d07-b596-13bac1876637"
-            }
-          },
-          {
-            "content": {
-              "description": "A qualidade na fabricação são fundamentais para garantir a satisfação do cliente",
-              "name": "Sob Medida",
-              "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8604/ee429a5c-daa5-4776-8ac2-8bdedd6e15c5"
-            }
-          }
-        ],
-        "interval": 6
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
