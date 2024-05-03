@@ -22,7 +22,7 @@ export default function Budget({
     alt: ""
   } }: Props) {
   return (
-    <div>
+    <div style={`background-image: url(${image})`}>
       text
     </div>
   )
