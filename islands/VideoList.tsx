@@ -63,10 +63,10 @@ function VideoItem({
 
         }
         }
-        class="block"
+        class="block relative pt-[100%] w-full overflow-hidden"
       >
         <Image
-          className="pointer-events-none"
+          className="pointer-events-none w-full h-full absolute top-0 left-0"
           src={`${imageName}`}
           width={"886"}
           height={"499"}
@@ -78,17 +78,27 @@ function VideoItem({
 }
 
 export default function VideoList(props: Galeria) {
-  const { title, photos } = props;
+  const { title, description, photos } = props;
   return (
     <>
       <section
-        id="videos"
-        class="flex flex-col items-center justify-between py-4 mb-12 videos r-scroll bg-[#283045]"
+        id="galeria"
+        class="flex flex-col items-center justify-between pb-28 galeria r-scroll bg-[#E3D6C5]"
       >
-        <h2 className="text-white font text-3xl text-center w-full px-2 pt-7 pb-5">
+        <div class="
+      bg-detalhe-1
+      bg-repeat-x h-[11px] w-full relative -top-[10px]"></div>
+        <h2 className="text-[#E3D6C5] font text-4xl text-center w-full px-2 pt-7 pb-5">
+          <div class="bg-[#987D5E] block w-12 h-1 mx-auto mb-2"></div>
           {title}
         </h2>
-        <ul className="flex flex-nowrap gap-3 overflow-x-auto overflow-y-hidden group py-6 w-full">
+        {description && (
+          <p class="text-[#E3D6C5]">
+            {description}
+          </p>
+        )}
+
+        <ul className="grid grid-cols-1 md:grid-cols-3 gap-3 group py-6 w-full">
           {photos.map((item, i) => (
             <li
               className={`flex-1 basis-1/3 min-w-[70%] lg:min-w-[480px] group-hover:opacity-80 hover:hover-i transition-all duration-500 ${i === 0 ? 'origin-left' : 'origin-right'
@@ -103,7 +113,7 @@ export default function VideoList(props: Galeria) {
             </li>
           ))}
         </ul>
-        <VideoModal imageName={'video'} data-videomodal id={''} />
+        <VideoModal imageName={'https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8604/51bab41b-3324-4112-b4de-427238533c5a'} data-videomodal id={''} />
       </section>
     </>
   );
