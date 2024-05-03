@@ -115,7 +115,7 @@ function SliderItem(
         <p class="text-lg text-center">{content?.description}</p>
         <div class="flex items-center justify-center gap-5">
           <Image
-            class="object-cover w-14 h-14 rounded-full"
+            class="object-cover w-14 h-14 rounded-full hidden"
             alt={content?.alt}
             src={content?.avatar || ""}
             width={56}
