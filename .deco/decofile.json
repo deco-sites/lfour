@@ -532,7 +532,27 @@
         "__resolveType": "site/sections/Testimonials.tsx",
         "title": "Depoimentos",
         "arrows": true,
-        "interval": 5
+        "interval": 5,
+        "slides": [
+          {
+            "content": {
+              "description": "Gosto mto da Marcenaria todas as vezes que precisei eles foram mto educados e solicitos, fizeram uma madeira para lateral do extrato de cama e ficou mto boa, fizeram um novo",
+              "name": "Isabel Barradas"
+            }
+          },
+          {
+            "content": {
+              "name": "Margio Dos Santos",
+              "description": "Atendimento e serviços de excelente qualidade, ótimos profissionais, projetista, entregadores, montadores, todos competentes, atenciosos e organizados. Reinaldo foi em minha residência e fez um projeto maravilhoso, não precisei mudar nada e ficou lindo. Entrega foi 20 dias antes do prazo combinado, tudo perfeito, estou super satisfeita. Muito obrigada e com certeza voltaremos a fazer negócio. Consulte Mais informação"
+            }
+          },
+          {
+            "content": {
+              "description": "Atendimento excelente, Sergio Carvalho e seu funcionário totalmente prestativo, super indico",
+              "name": "Adriana Silva"
+            }
+          }
+        ]
       },
       {
         "__resolveType": "site/sections/Budget.tsx",
