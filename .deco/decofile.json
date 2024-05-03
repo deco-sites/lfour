@@ -533,11 +533,17 @@
       },
       {
         "__resolveType": "site/sections/ImageWithParagraph.tsx",
-        "placement": "right"
+        "placement": "right",
+        "title": "Projetamos em 3D",
+        "description": "A utilização de projetos de móveis em 3D é uma ferramenta valiosa para visualizar e planejar espaços internos antes da compra e instalação dos móveis. \nIsso permite uma melhor percepção do uso do espaço, harmonia entre os elementos e a funcionalidade do ambiente, facilitando decisões de design e evitando custos desnecessários com mobiliário inadequado.",
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8604/1f013c3a-4d71-41d6-8f1c-0e3308dfadd5"
       },
       {
         "__resolveType": "site/sections/ImageWithParagraph.tsx",
-        "placement": "left"
+        "placement": "left",
+        "title": "Sustentabilidade das chapas e painéis que decoram lares e escritórios",
+        "description": "A partir do manejo florestal responsável\nO ponto mais importante em optar por peças de MDF é a questão da sustentabilidade. Por ser fabricado com madeiras de reflorestamento, ele evita o desmatamento e a utilização inapropriada de madeira de árvores.",
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8604/6e4a6831-8406-4a95-b2ee-b3d0fb65252f"
       },
       {
         "__resolveType": "site/sections/BlogPosts.tsx"
