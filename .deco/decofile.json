@@ -601,6 +601,26 @@
         "logo": {
           "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8604/12a84284-16f4-4fc3-9fe4-9647293cae2c"
         }
+      },
+      {
+        "__resolveType": "site/sections/HeroBanner.tsx",
+        "slides": [
+          {
+            "content": {
+              "name": "Sob Medida",
+              "description": "A qualidade na fabricação são fundamentais para garantir a satisfação do cliente",
+              "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8604/1af34311-6f5e-4d07-b596-13bac1876637"
+            }
+          },
+          {
+            "content": {
+              "description": "A qualidade na fabricação são fundamentais para garantir a satisfação do cliente",
+              "name": "Sob Medida",
+              "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8604/ee429a5c-daa5-4776-8ac2-8bdedd6e15c5"
+            }
+          }
+        ],
+        "interval": 6
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
