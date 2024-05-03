@@ -330,16 +330,18 @@
       },
       {
         "__resolveType": "site/sections/ImageWithParagraph.tsx",
-        "placement": "right"
+        "placement": "left"
       },
       {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx"
+        "__resolveType": "site/sections/ImageWithParagraph.tsx",
+        "placement": "right"
       },
       {
         "__resolveType": "site/sections/BlogPosts.tsx"
       },
       {
-        "__resolveType": "site/sections/Testimonials.tsx"
+        "__resolveType": "site/sections/Testimonials.tsx",
+        "title": "Depoimentos"
       },
       {
         "__resolveType": "site/sections/Faq.tsx"
