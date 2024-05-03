@@ -5,13 +5,8 @@ function VideoModal({ imageName, id }: { imageName: string; id: string }) {
   return (
     <dialog id={id} data-videomodal className="modal">
       <div className="modal-box rounded-none w-screen max-w-none max-h-none p-0 flex  items-center justify-center bg-black h-full">
-        <Image
-          className="pointer-events-none"
-          src={`${imageName}`}
-          width={"886"}
-          height={"499"}
-          fetchPriority="low"
-        />
+
+        <img className="pointer-events-none modal-img" src={`${imageName}`} loading="lazy" />
 
         <form
           method="dialog"
