@@ -425,6 +425,35 @@
     "path": "/test",
     "sections": [
       {
+        "__resolveType": "site/sections/Theme/Theme.tsx",
+        "colorScheme": "any",
+        "font": {
+          "__resolveType": "website/loaders/fonts/googleFonts.ts",
+          "fonts": [
+            {
+              "variations": [
+                {
+                  "weight": "300"
+                },
+                {
+                  "weight": "400"
+                },
+                {
+                  "weight": "500"
+                },
+                {
+                  "weight": "600"
+                },
+                {
+                  "weight": "700"
+                }
+              ],
+              "family": "Oswald"
+            }
+          ]
+        }
+      },
+      {
         "__resolveType": "site/sections/Header.tsx",
         "navigation": {
           "links": [
