@@ -562,6 +562,18 @@
         "logo": {
           "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8604/12a84284-16f4-4fc3-9fe4-9647293cae2c"
         }
+      },
+      {
+        "__resolveType": "site/sections/HeroBanner.tsx",
+        "interval": 5,
+        "arrows": true,
+        "slides": [
+          {
+            "content": {
+              "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8604/1af34311-6f5e-4d07-b596-13bac1876637"
+            }
+          }
+        ]
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
