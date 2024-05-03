@@ -314,9 +314,9 @@
       },
       {
         "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Click here to tweak this text however you want.</p>",
+        "title": "<p>Sob Medida</p>",
         "cta": [],
-        "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
+        "description": "A qualidade na fabricação são fundamentais para garantir a satisfação do cliente",
         "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8604/8da75f6f-3912-4bc6-90d7-eee17764eaaf"
       },
       {
