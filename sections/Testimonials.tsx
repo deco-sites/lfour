@@ -111,9 +111,9 @@ function SliderItem(
       id={id}
       class="relative overflow-y-hidden w-full min-h-[292px]"
     >
-      <div class="flex flex-col justify-center gap-16 p-8 border border-base-content rounded-2xl h-full max-w-[600px]">
-        <p class="text-lg">{content?.description}</p>
-        <div class="flex items-center gap-5">
+      <div class="flex flex-col justify-center gap-16 p-8 border border-[#E3D6C5] text-[#E3D6C5] rounded-2xl h-full">
+        <p class="text-lg text-center">{content?.description}</p>
+        <div class="flex items-center justify-center gap-5">
           <Image
             class="object-cover w-14 h-14 rounded-full"
             alt={content?.alt}
@@ -122,8 +122,8 @@ function SliderItem(
             height={56}
           />
           <div class="flex flex-col">
-            <p class="font-semibold text-base">{content?.name}</p>
-            <p class="text-base">{content?.position}</p>
+            <p class="font-semibold text-[#E3D6C5]">{content?.name}</p>
+            <p class="text-[#E3D6C5]">{content?.position}</p>
           </div>
         </div>
       </div>
@@ -167,23 +167,32 @@ function Buttons() {
   return (
     <div class="flex gap-4">
       <div class="flex items-center justify-center z-10 col-start-1 row-start-2">
-        <Slider.PrevButton class="flex items-center justify-center btn-circle border border-base-content">
-          <Icon
-            class="text-base-content"
+        <Slider.PrevButton class="flex items-center justify-center btn-circle bg-[#533723]">
+          {/* <Icon
+            class="text-[#E3D6C5]"
             size={24}
             id="ArrowRight"
             strokeWidth={3}
-          />
+          /> */}
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10.6992 13.8845L3 10L10.6992 6" stroke="#E3D6C5" />
+            <path d="M3 10H17" stroke="#E3D6C5" />
+          </svg>
         </Slider.PrevButton>
       </div>
       <div class="flex items-center justify-center z-10 col-start-3 row-start-2">
-        <Slider.NextButton class="flex items-center justify-center btn-circle border border-base-content">
-          <Icon
-            class="text-base-content"
+        <Slider.NextButton class="flex items-center justify-center btn-circle bg-[#533723]">
+          {/* <Icon
+            class="text-[#E3D6C5]"
             size={24}
             id="ArrowLeft"
             strokeWidth={3}
-          />
+          /> */}
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9.30078 13.8845L17 10L9.30078 6" stroke="#E3D6C5" />
+            <path d="M17 10H3" stroke="#E3D6C5" />
+          </svg>
+
         </Slider.NextButton>
       </div>
     </div>
@@ -197,34 +206,41 @@ function Carousel(props: Props) {
   return (
     <div
       id={id}
-      class="min-h-min flex flex-col lg:container md:max-w-6xl lg:mx-auto mx-4 py-12 lg:py-28"
+      class="bg-[#251C0D]"
     >
-      <h2 class="text-4xl leading-snug lg:w-1/2 pb-12 lg:pb-16">
-        {title}
-      </h2>
-      <Slider
-        class="carousel carousel-center w-full col-span-full row-span-full gap-6"
-        rootId={id}
-        interval={interval && interval * 1e3}
-        infinite
-      >
-        {slides?.map((slide, index) => (
-          <Slider.Item
-            index={index}
-            class="carousel-item max-w-[600px] w-full"
-          >
-            <SliderItem
-              slide={slide}
-              id={`${id}::${index}`}
-            />
-          </Slider.Item>
-        ))}
-      </Slider>
+      <div class="bg-detalhe-3 bg-repeat-x h-[11px] relative -top-[10px]"></div>
 
-      <div class="flex justify-between pt-8 lg:px-16">
-        {props.dots && <Dots slides={slides} interval={interval} />}{" "}
-        {props.arrows && <Buttons />}
+      <div class="min-h-min flex flex-col lg:container md:max-w-6xl lg:mx-auto mx-4 py-12 lg:py-28">
+        <h2 class="text-4xl text-[#E3D6C5] leading-snug pb-12 lg:pb-16 text-center">
+          {title}
+        </h2>
+        <Slider
+          class="carousel carousel-center w-full col-span-full row-span-full gap-6"
+          rootId={id}
+          interval={interval && interval * 1e3}
+          infinite
+        >
+          {slides?.map((slide, index) => (
+            <Slider.Item
+              index={index}
+              class="carousel-item w-full"
+            >
+              <SliderItem
+                slide={slide}
+                id={`${id}::${index}`}
+              />
+            </Slider.Item>
+          ))}
+        </Slider>
+
+        <div class="flex justify-between pt-8 lg:px-16">
+          {props.dots && <Dots slides={slides} interval={interval} />}{" "}
+          {props.arrows && <Buttons />}
+        </div>
+
       </div>
+
+      <div class="bg-detalhe-3 bg-repeat-x h-[11px] relative -bottom-[10px] rotate-180"></div>
     </div>
   );
 }
