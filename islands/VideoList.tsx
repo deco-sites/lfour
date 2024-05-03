@@ -66,7 +66,7 @@ function VideoItem({
         class="block relative pt-[100%] w-full overflow-hidden"
       >
         <Image
-          className="pointer-events-none w-full h-full absolute top-0 left-0"
+          className="pointer-events-none w-full h-full absolute top-0 left-0 object-cover"
           src={`${imageName}`}
           width={"886"}
           height={"499"}
