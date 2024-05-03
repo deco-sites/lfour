@@ -354,6 +354,10 @@
         "placement": "right"
       },
       {
+        "__resolveType": "site/sections/ImageWithParagraph.tsx",
+        "placement": "left"
+      },
+      {
         "__resolveType": "site/sections/BlogPosts.tsx"
       },
       {
