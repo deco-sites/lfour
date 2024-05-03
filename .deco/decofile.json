@@ -519,9 +519,6 @@
         "interval": 5
       },
       {
-        "__resolveType": "site/sections/Faq.tsx"
-      },
-      {
         "__resolveType": "site/sections/Budget.tsx"
       },
       {
