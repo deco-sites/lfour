@@ -41,6 +41,6 @@ export default function VideoList({
       },
     },
   ],
-}: Video) {
-  return <VideoListIsland title={title} videos={photos} />;
+}: Galeria) {
+  return <VideoListIsland title={title} photos={photos} />;
 }
