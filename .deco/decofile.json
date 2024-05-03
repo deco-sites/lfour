@@ -306,7 +306,13 @@
               "url": "/contato"
             }
           ],
-          "buttons": []
+          "buttons": [
+            {
+              "id": "#",
+              "href": "#",
+              "text": "(22) 99999-9999"
+            }
+          ]
         },
         "logo": {
           "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8604/141a0302-dcff-45aa-9d44-15212b21f588"
