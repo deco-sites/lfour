@@ -22,8 +22,11 @@ export default function Budget({
     alt: ""
   } }: Props) {
   return (
-    <div style={`background-image: url(${image})`}>
-      text
+    <div class="bg-fixed" style={`background-image: url(${image.src})`}>
+      <div class="flex flex-col min-h-96 justify-center items-center lg:container md:max-w-6xl lg:mx-auto mx-4 text-sm">
+        <h2 class="text-white text-5xl mb-6 shadow-[0px_2px_14px_0px_#7F000000]">{title}</h2>
+        <a href="#" class="py-3 px-4 bg-white text-[#757575] rounded-s">{button.label}</a>
+      </div>
     </div>
   )
 }
