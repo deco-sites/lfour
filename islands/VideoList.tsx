@@ -1,21 +1,17 @@
 import Image from 'apps/website/components/Image.tsx';
-import { Video } from '../sections/VideoList.tsx';
+import { Galeria } from '../sections/VideoList.tsx';
 
 function VideoModal({ imageName, id }: { imageName: string; id: string }) {
   return (
     <dialog id={id} data-videomodal className="modal">
       <div className="modal-box rounded-none w-screen max-w-none max-h-none p-0 flex  items-center justify-center bg-black h-full">
-        <iframe
-          className="z-50 hidden"
-          width="1168"
-          height="657"
-          src={id ? id : 'https://www.youtube.com/embed/L-_xHEv0l-w'}
-          title="Star Wars: Episode IV - A New Hope (1977) Trailer #1 | Movieclips Classic Trailers"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
+        <Image
+          className="pointer-events-none"
+          src={`${imageName}`}
+          width={"886"}
+          height={"499"}
+          fetchPriority="low"
+        />
 
         <form
           method="dialog"
@@ -89,8 +85,8 @@ function VideoItem({
   );
 }
 
-export default function VideoList(props: Video) {
-  const { title, videos } = props;
+export default function VideoList(props: Galeria) {
+  const { title, photos } = props;
   return (
     <>
       <section
@@ -101,7 +97,7 @@ export default function VideoList(props: Video) {
           {title}
         </h2>
         <ul className="flex flex-nowrap gap-3 overflow-x-auto overflow-y-hidden group py-6 w-full">
-          {videos.map((item, i) => (
+          {photos.map((item, i) => (
             <li
               className={`flex-1 basis-1/3 min-w-[70%] lg:min-w-[480px] group-hover:opacity-80 hover:hover-i transition-all duration-500 ${i === 0 ? 'origin-left' : 'origin-right'
                 }`}

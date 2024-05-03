@@ -1,9 +1,9 @@
 import type { ImageWidget } from 'apps/admin/widgets.ts';
 import VideoListIsland from '../islands/VideoList.tsx';
 
-export interface Video {
+export interface Galeria {
   title?: string;
-  videos: {
+  photos: {
     label?: string;
     url?: string;
     thumbnail?: {
@@ -14,8 +14,8 @@ export interface Video {
 }
 
 export default function VideoList({
-  title = "VÍDEOS",
-  videos = [
+  title = "Nossa Galeria",
+  photos = [
     {
       label: 'Home',
       url: 'https://www.youtube.com/embed/erLk59H86ww',
@@ -42,5 +42,5 @@ export default function VideoList({
     },
   ],
 }: Video) {
-  return <VideoListIsland title={title} videos={videos} />;
+  return <VideoListIsland title={title} videos={photos} />;
 }
