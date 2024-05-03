@@ -93,15 +93,15 @@ export default function VideoList(props: Galeria) {
           {title}
         </h2>
         {description && (
-          <p class="text-[#533723]">
+          <p class="text-[#533723] mb-5">
             {description}
           </p>
         )}
 
-        <ul className="grid grid-cols-1 md:grid-cols-3 gap-3 group py-6 w-full">
+        <ul className="grid grid-cols-1 md:grid-cols-3 gap-3 group px-3 py-6 w-full">
           {photos.map((item, i) => (
             <li
-              className={`flex-1 basis-1/3 min-w-[70%] lg:min-w-[480px] group-hover:opacity-80 hover:hover-i transition-all duration-500 ${i === 0 ? 'origin-left' : 'origin-right'
+              className={`flex-1 basis-1/3 min-w-[70%] lg:min-w-[480px] hover:opacity-80  transition-all duration-500 ${i === 0 ? 'origin-left' : 'origin-right'
                 }`}
             >
               <VideoItem
