@@ -88,12 +88,12 @@ export default function VideoList(props: Galeria) {
         <div class="
       bg-detalhe-1
       bg-repeat-x h-[11px] w-full relative -top-[10px]"></div>
-        <h2 className="text-[#E3D6C5] font text-4xl text-center w-full px-2 pt-7 pb-5">
-          <div class="bg-[#987D5E] block w-12 h-1 mx-auto mb-2"></div>
+        <h2 className="text-[#533723] font text-4xl text-center w-full px-2 pt-7 pb-5">
+          <div class="bg-[#533723] block w-12 h-1 mx-auto mb-2"></div>
           {title}
         </h2>
         {description && (
-          <p class="text-[#E3D6C5]">
+          <p class="text-[#533723]">
             {description}
           </p>
         )}
