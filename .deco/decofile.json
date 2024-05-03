@@ -95,6 +95,23 @@
         {
           "variations": [],
           "family": "Albert Sans"
+        },
+        {
+          "variations": [
+            {
+              "weight": "400"
+            },
+            {
+              "weight": "500"
+            },
+            {
+              "weight": "600"
+            },
+            {
+              "weight": "700"
+            }
+          ],
+          "family": "Oswald"
         }
       ]
     }
