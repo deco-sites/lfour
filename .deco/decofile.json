@@ -345,7 +345,18 @@
         "__resolveType": "site/sections/Faq.tsx"
       },
       {
-        "__resolveType": "Footer"
+        "__resolveType": "site/sections/Footer.tsx",
+        "links": [],
+        "bottomLinks": [],
+        "social": [],
+        "subscribe": {
+          "title": " ",
+          "description": " ",
+          "instructions": "<p> </p>"
+        },
+        "logo": {
+          "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8604/12a84284-16f4-4fc3-9fe4-9647293cae2c"
+        }
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
