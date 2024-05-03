@@ -35,15 +35,12 @@ export default function ImageWithParagraph({
   title = "Here's an intermediate size heading you can edit",
   description =
   "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
-  tagline = "Tagline",
+  tagline,
   image = DEFAULT_IMAGE,
   placement = "left",
   anchorId = "one",
   disableSpacing,
-  cta = [
-    { id: "change-me-1", href: "/", text: "Change me", style: "Outline" },
-    { id: "change-me-2", href: "/", text: "Change me", style: "Ghost" },
-  ],
+  cta,
 }: Props) {
   return (
     <div class={`${placement === 'left' ? "bg-[#E3D6C5]" : "bg-[#251B0E]"}`}>
@@ -68,9 +65,13 @@ export default function ImageWithParagraph({
             />
           </div>
           <div class={`w-full md:w-1/2 space-y-2 md:space-y-4 md:max-w-xl gap-4 z-10 ${placement === 'left' ? "text-[#251B0E]" : "text-[#E3D6C5]"}`}>
-            <p class="text-sm font-semibold">
-              {tagline}
-            </p>
+
+            {tagline && (
+              <p class="text-sm font-semibold">
+                {tagline}
+              </p>
+            )}
+            <div class={`block w-12 h-1 mb-2 ${placement === 'left' ? "bg-[#533723]" : "bg-[#987D5E]"}`}></div>
             <p class="text-4xl leading-snug">
               {title}
             </p>

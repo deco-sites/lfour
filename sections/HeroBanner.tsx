@@ -123,7 +123,7 @@ function SliderItem(
             loading="lazy"
           />
 
-          <div class="relative container">
+          <div class="relative container hidden lg:block">
             <div class="flex bg-[#201209] px-9 pt-4 pb-5 absolute left-0 bottom-24" style="transform: skew(-30deg)">
               <div class="container" style="transform: skew(30deg)">
                 <h2 class="text-[#E3D6C5]">{content?.name}</h2>

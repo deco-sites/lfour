@@ -22,7 +22,7 @@ const DEFAULT_IMAGE =
 
 export default function BlogPosts({
   title = "Here's a component for you to showcase your blogposts",
-  description = "This subheading is fully editable, remember?",
+  description,
   posts = [
     {
       title: "Title of blogpost #1",
@@ -64,9 +64,11 @@ export default function BlogPosts({
             <h2 class="text-4xl leading-snug">
               {title}
             </h2>
-            <p class="text-lg">
-              {description}
-            </p>
+            {description && (
+              <p class="text-lg">
+                {description}
+              </p>
+            )}
           </div>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
