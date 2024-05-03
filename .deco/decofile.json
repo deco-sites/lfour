@@ -477,19 +477,19 @@
             },
             {
               "label": "SERVIÇOS",
-              "url": "/servicos"
+              "url": "/#servicos"
             },
             {
               "label": "SOBRE",
-              "url": "/sobre"
+              "url": "/#sobre"
             },
             {
               "label": "PROJETOS",
-              "url": "/projetos"
+              "url": "/#projetos"
             },
             {
               "label": "CONTATO",
-              "url": "/contato"
+              "url": "/#contato"
             }
           ],
           "buttons": [
