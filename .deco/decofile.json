@@ -535,7 +535,12 @@
         "interval": 5
       },
       {
-        "__resolveType": "site/sections/Faq.tsx"
+        "__resolveType": "site/sections/Budget.tsx",
+        "title": "GOSTARIA DE FAZER UM  ORÇAMENTO?",
+        "button": {
+          "label": "ENTRAR EM CONTATO",
+          "link": "#"
+        }
       },
       {
         "__resolveType": "site/sections/Footer.tsx",
