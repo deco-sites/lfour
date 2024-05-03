@@ -363,7 +363,8 @@
       {
         "__resolveType": "site/sections/Testimonials.tsx",
         "title": "Depoimentos",
-        "arrows": true
+        "arrows": true,
+        "interval": 5
       },
       {
         "__resolveType": "site/sections/Faq.tsx"
