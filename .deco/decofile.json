@@ -493,6 +493,9 @@
         "__resolveType": "site/sections/Faq.tsx"
       },
       {
+        "__resolveType": "site/sections/Budget.tsx"
+      },
+      {
         "__resolveType": "site/sections/VideoList.tsx",
         "photos": [
           {
@@ -513,7 +516,8 @@
               "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8604/42024821-a42a-4359-b6dc-165b794954ea"
             }
           }
-        ]
+        ],
+        "title": "Nossa Galeria"
       },
       {
         "__resolveType": "site/sections/Footer.tsx",
