@@ -114,6 +114,9 @@
           "family": "Oswald"
         }
       ]
+    },
+    "complementaryColors": {
+      "base-content": "#000000"
     }
   },
   "Preview /sections/Faq.tsx": {
@@ -343,9 +346,6 @@
         "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8604/8da75f6f-3912-4bc6-90d7-eee17764eaaf"
       },
       {
-        "__resolveType": "site/sections/Logos.tsx"
-      },
-      {
         "__resolveType": "site/sections/ImageWithParagraph.tsx",
         "placement": "left"
       },
@@ -358,7 +358,8 @@
       },
       {
         "__resolveType": "site/sections/Testimonials.tsx",
-        "title": "Depoimentos"
+        "title": "Depoimentos",
+        "arrows": true
       },
       {
         "__resolveType": "site/sections/Faq.tsx"
