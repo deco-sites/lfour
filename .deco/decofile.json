@@ -530,7 +530,7 @@
         "description": "A marcenaria personalizada iniciada em 2024 reflete um compromisso com a dedicação e a inovação no design de móveis. Cada peça é meticulosamente trabalhada para atender às especificações exatas dos clientes, combinando técnicas tradicionais com tendências contemporâneas. Este enfoque não apenas garante móveis que se encaixam perfeitamente nos espaços dos clientes, mas também promove uma experiência única e pessoal em cada projeto.",
         "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8604/2400a5f0-115d-4dac-8fbc-3f11fae650ab",
         "placement": "left",
-        "anchorId": "#sobre"
+        "anchorId": "sobre"
       },
       {
         "__resolveType": "site/sections/ImageWithParagraph.tsx",
@@ -538,7 +538,7 @@
         "title": "Projetamos em 3D",
         "description": "A utilização de projetos de móveis em 3D é uma ferramenta valiosa para visualizar e planejar espaços internos antes da compra e instalação dos móveis. \nIsso permite uma melhor percepção do uso do espaço, harmonia entre os elementos e a funcionalidade do ambiente, facilitando decisões de design e evitando custos desnecessários com mobiliário inadequado.",
         "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8604/1f013c3a-4d71-41d6-8f1c-0e3308dfadd5",
-        "anchorId": "#projetos"
+        "anchorId": "projetos"
       },
       {
         "__resolveType": "site/sections/ImageWithParagraph.tsx",
