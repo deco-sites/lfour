@@ -101,7 +101,7 @@ export default function VideoList(props: Galeria) {
             >
               <VideoItem
                 imageName={item.thumbnail.src}
-                modalId={item.url}
+                modalId={item.thumbnail.src}
                 index={i}
                 alt={item.thumbnail.alt}
               />
