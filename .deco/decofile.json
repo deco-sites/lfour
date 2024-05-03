@@ -546,7 +546,34 @@
         "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8604/6e4a6831-8406-4a95-b2ee-b3d0fb65252f"
       },
       {
-        "__resolveType": "site/sections/BlogPosts.tsx"
+        "__resolveType": "site/sections/BlogPosts.tsx",
+        "title": "Principais tendências para 2024",
+        "posts": [
+          {
+            "tags": [],
+            "title": "Principais tendências para 2024",
+            "excerpt": "Todos os anos, diversas mostras nacionais e internacionais apresentam as tendências de arquitetura, design, paisagismo e decoração para os próximos 12 ou 24 meses. Embora tenham foco em profissionais do ramo, esses eventos rendem muitos materiais inspiradores e dicas valiosas. Além disso, nessas ocasiões, ocorrem muitos lançamentos de materiais, acabamentos, serviços, entre outros.",
+            "date": "03/05/2024",
+            "author": "author",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8604/bcdb00d0-286c-4160-835d-c5ffc1b79e9e"
+          },
+          {
+            "tags": [],
+            "title": "MDF em tons terrosos",
+            "excerpt": "Que os tons terrosos estão em evidência na decoração, é inegável. Eles surgem não apenas nas paredes, como também em objetos decorativos, estofados, tecidos diversos e, é claro, móveis, painéis, divisórias, entre outros. Devido a esse destaque, você certamente encontrará inúmeras opções de MDF em tons terrosos.",
+            "author": "author",
+            "date": "03/05/2024",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8604/2ec94b8b-54e6-40d7-a59c-aaea08026ac7"
+          },
+          {
+            "tags": [],
+            "title": "MDF Apricot Crush",
+            "excerpt": "Eleita cor do ano de 2024. Para incluir a tendência no seu projeto de interiores, você pode utilizar o MDF Taipa, da Sudati, já que ele traz esse rosé levemente metalizado, sofisticado e versátil. A chapa de 2750x1850mm está disponível em quatro espessuras: 6mm, 15mm, 18mm e 25mm.",
+            "author": "author",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8604/257e6739-051d-4c7e-8362-01ea0e1e3e37",
+            "date": "03/05/2024"
+          }
+        ]
       },
       {
         "__resolveType": "site/sections/Testimonials.tsx",
