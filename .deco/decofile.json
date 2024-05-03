@@ -347,7 +347,9 @@
       },
       {
         "__resolveType": "site/sections/ImageWithParagraph.tsx",
-        "placement": "left"
+        "placement": "left",
+        "title": "Sobre nos",
+        "description": "A marcenaria personalizada iniciada em 2024 reflete um compromisso com a dedicação e a inovação no design de móveis. Cada peça é meticulosamente trabalhada para atender às especificações exatas dos clientes, combinando técnicas tradicionais com tendências contemporâneas. Este enfoque não apenas garante móveis que se encaixam perfeitamente nos espaços dos clientes, mas também promove uma experiência única e pessoal em cada projeto."
       },
       {
         "__resolveType": "site/sections/ImageWithParagraph.tsx",
