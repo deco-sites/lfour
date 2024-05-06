@@ -55,8 +55,7 @@ function VideoItem({
           //  document?.querySelector('[data-videomodal] iframe')?.src = modalId
           const iframe = document?.querySelector('[data-videomodal] img');
 
-          if (iframe.src) {
-
+          if (iframe && iframe instanceof HTMLImageElement) {
             if (iframe.src !== modalId) iframe.src = modalId;
             (document?.querySelector('[data-videomodal]') as HTMLFormElement)?.showModal();
           }
@@ -68,8 +67,8 @@ function VideoItem({
         <Image
           className="pointer-events-none w-full h-full absolute top-0 left-0 object-cover"
           src={`${imageName}`}
-          width={"886"}
-          height={"499"}
+          width={886}
+          height={499}
           fetchPriority="low"
         />
       </button>
