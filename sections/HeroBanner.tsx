@@ -112,30 +112,28 @@ function SliderItem(
       class="relative overflow-y-hidden w-full min-h-[292px]"
     >
       <div class="flex flex-col justify-center text-[#E3D6C5] h-full">
-        <div class="flex flex-col items-center justify-center">
-          <Image
-            width={1920}
-            class="w-full object-fit"
-            sizes="(max-width: 640px) 100vw, 30vw"
-            src={content?.avatar || ""}
-            alt={content?.alt}
-            decoding="async"
-            loading="lazy"
-          />
+        <Image
+          width={1920}
+          class="w-full h-full object-cover"
+          sizes="(max-width: 640px) 100vw, 30vw"
+          src={content?.avatar || ""}
+          alt={content?.alt}
+          decoding="async"
+          loading="lazy"
+        />
 
-          <div class="relative container hidden lg:block">
-            <div class="flex bg-[#201209] px-9 pt-4 pb-5 absolute left-0 bottom-24" style="transform: skew(-30deg)">
-              <div class="container" style="transform: skew(30deg)">
-                <h2 class="text-[#E3D6C5]">{content?.name}</h2>
-                <p class="text-[#DCC9AB] font-light">{content?.description}</p>
-              </div>
+        <div class="relative container hidden lg:block">
+          <div class="flex bg-[#201209] px-9 pt-4 pb-5 absolute left-0 bottom-24" style="transform: skew(-30deg)">
+            <div class="container" style="transform: skew(30deg)">
+              <h2 class="text-[#E3D6C5]">{content?.name}</h2>
+              <p class="text-[#DCC9AB] font-light">{content?.description}</p>
             </div>
           </div>
-          <div class="flex-col hidden">
-            <p class="font-semibold text-[#E3D6C5]">{content?.name}</p>
-            <p class="text-[#E3D6C5]">{content?.position}</p>
-            <p class="text-lg text-center">{content?.description}</p>
-          </div>
+        </div>
+        <div class="flex-col hidden">
+          <p class="font-semibold text-[#E3D6C5]">{content?.name}</p>
+          <p class="text-[#E3D6C5]">{content?.position}</p>
+          <p class="text-lg text-center">{content?.description}</p>
         </div>
       </div>
     </div>

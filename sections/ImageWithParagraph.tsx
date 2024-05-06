@@ -43,11 +43,11 @@ export default function ImageWithParagraph({
   cta,
 }: Props) {
   return (
-    <div class={`${placement === 'left' ? "bg-[#E3D6C5]" : "bg-[#251B0E]"}`}>
+    <div id={anchorId} class={`${placement === 'left' ? "bg-[#E3D6C5]" : "bg-[#251B0E]"}`}>
       <div class={`
       ${placement === 'left' ? "bg-detalhe-1" : "bg-detalhe-3"}
       bg-repeat-x h-[11px] relative -top-[10px]`}></div>
-      <div id={anchorId} class="lg:container md:max-w-6xl lg:mx-auto mx-4 text-sm">
+      <div class="lg:container md:max-w-6xl lg:mx-auto mx-4 text-sm">
         <div
           class={`flex ${PLACEMENT[placement]
             } gap-12 md:gap-20 text-left items-center z-10 ${disableSpacing?.top ? "" : "pt-12 lg:pt-28"
