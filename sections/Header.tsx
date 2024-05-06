@@ -67,7 +67,7 @@ export default function Header({
   return (
     <header class="bg-[#201209] relative z-50">
       <nav class="container mx-auto lg:px-0 px-4">
-        <div class="flex gap-8 items-center justify-between py-4 lg:py-8 grid grid-cols-3">
+        <div class="gap-8 items-center justify-between py-4 lg:py-8 grid grid-cols-3">
           <label
             class="cursor-pointer lg:hidden pt-6 relative z-40"
             for="menu-mobile"
@@ -125,7 +125,7 @@ export default function Header({
           </ul>
 
           <div class=" flex justify-center">
-            <a class="absolute left-0 right-0 top-2 mx-auto w-max" href="/">
+            <a class="lg:absolute left-0 right-0 top-2 mx-auto w-max" href="/">
               <Image
                 src={logo.src || ''}
                 width={280}
